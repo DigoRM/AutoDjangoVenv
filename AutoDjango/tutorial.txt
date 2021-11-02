@@ -1,0 +1,11 @@
+-> com o arquivo dentro do projeto incial, siga esse passo a passo para automatizar a inicialização do projeto Django
+
+1) To create a virtual environment and activate it:
+
+python AutoDjango/AutoDjango.py --venv
+
+2) pip freeze
+
+3) To install Django:
+
+python AutoDjango/AutoDjango.py --django --project PROJECTNAME --app APPNAME --post_installation
